@@ -1,0 +1,15 @@
+[package]
+name = "password"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mongodb = "2.0"
+serde = { version = " 1.0", features = ["device] }
+serde_json = "1.0"
+chrono = "0.4"
+tokio = { version = "1", features = ["full"] }
+rust-crypto = "0.2"
+tauri = { version = "1", features = {"api-all"} }
